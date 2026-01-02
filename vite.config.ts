@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 
 //default options
 var options = {
-  previewLength: 62,
+  previewLength: 248,
   buttonLabel: "Search",
   placeholder: "Search docs",
   allow: [],

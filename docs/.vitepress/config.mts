@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Collisions",
   description: "Collisions - règles, monde",
   lastUpdated: true,
+  outDir: "../dist",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "Home", link: "/" }],
@@ -18,7 +19,6 @@ export default defineConfig({
             text: "Les races",
             link: "/les-races",
             items: [
-              { text: "Présentation", link: "les-races/presentation" },
               { text: "Araknes", link: "les-races/araknes" },
               { text: "Carkages", link: "les-races/carkages" },
               {

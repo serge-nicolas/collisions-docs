@@ -8,7 +8,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "convert:pdf-to-md": "pdf2md --inputFolderPath --outputFolderPath",
-    "dev:deploy:commit": "echo \"$(date +%j).$(git rev-parse --short HEAD):\n branch: from $(git branch --show-current) \n type: COMMIT\n action: deploy commit to own branch\n date: $(date +%Y-%m-%d_%H:%M:%S) \" >> VERSIONS.yaml && surge ./dist --domain https://$(git rev-parse --short HEAD).collisions-feuille-perso.surge.sh"
+    "dev:deploy:commit": "echo \"$(date +%j).$(git rev-parse --short HEAD):\n branch: from $(git branch --show-current) \n type: COMMIT\n action: deploy commit to own branch\n date: $(date +%Y-%m-%d_%H:%M:%S) \" >> VERSIONS.yaml && surge ./dist --domain https://$(git rev-parse --short HEAD).collisions-docs.surge.sh",
+    "dev:deploy:branch": "echo \"$(date +%j).$(git branch --show-current).$(git rev-parse --short HEAD): \n type: BRANCH\n action: deploy to branch $(git branch --show-current) \n date: $(date +%Y-%m-%d_%H:%M:%S)\" >> VERSIONS.yaml && surge ./dist --domain https://$(git branch --show-current).collisions-docs.surge.sh"
   },
   "devDependencies": {
     "@opendocsg/pdf2md": "^0.2.1",

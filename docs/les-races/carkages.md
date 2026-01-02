@@ -3,7 +3,7 @@
 
 # LES CARKAGES ∞∞
 
-![](images/_page_12_Picture_1.jpeg)
+![](./images/_page_12_Picture_1.jpeg)
 
 ## APPARENCE
 
@@ -85,4 +85,4 @@ Le sang démoniaque qui coule chez les carkages leur octroie la capacité à se 
 
 Malus de 2 en cas d'exposition sans protection Vous êtes ébloui par la lumière du jour. C'est ça d'être un vrai troglodyte. Avec des lunettes fumées tout va mieux.
 
-![](_page_14_Figure_10.jpeg)
+![](./images/_page_14_Figure_10.jpeg)

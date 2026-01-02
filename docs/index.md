@@ -11,14 +11,14 @@ hero:
       alt: VitePress
   actions:
     - theme: alt
-      text: Règles
+      text: Règles // marche pas
       link: /les-regles/index.md
     - theme: alt
       text: Monde
       link: /le-monde/index.md
     - theme: alt
-      text: Les races
-      link: /les-races/
+      text: Les races // marche pas
+      link: /les-races/index.md
 
 features:
   - title: Feature A
@@ -31,4 +31,4 @@ features:
 
 <p>&nbsp;</p>
 
-![](../../images/garde.jpeg)
+![](./images/garde.jpeg)
