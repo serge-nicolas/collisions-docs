@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Collisions - règles, monde",
   lastUpdated: true,
   outDir: "../dist",
+  base: "/collisions-docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "Home", link: "/" }],
