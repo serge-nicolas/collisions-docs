@@ -38,7 +38,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/collisions-jdr/vitepress/edit/main/docs/:path",
+        "https://github.com/serge-nicolas/collisions-docs/edit/development/:path",
     },
     socialLinks: [],
   },
