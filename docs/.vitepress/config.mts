@@ -38,7 +38,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/serge-nicolas/collisions-docs/edit/development/:path",
+        "https://github.com/serge-nicolas/collisions-docs/edit/development/docs:path",
     },
     socialLinks: [],
   },
